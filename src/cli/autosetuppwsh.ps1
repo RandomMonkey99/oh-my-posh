@@ -1,4 +1,2 @@
-Add-Content $PROFILE
-oh-my-posh init pwsh | Invoke-Expression
-
+Add-Content $PROFILE "`noh-my-posh init pwsh | Invoke-Expression"
 . $PROFILE
